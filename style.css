@@ -1,0 +1,68 @@
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  display: block;
+  min-height: 100%;
+  overflow-y: scroll;
+}
+
+ {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+  background: white;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  /* Set the fixed height of the footer here */
+}
+
+ #footerm {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+   #footerm {
+    display: block;
+    z-index: 9;
+  }
+}
+ #footerm .navbar-inverse {
+  background: #BC8533;
+  height: 46px;
+}
+ #footerm #bottom-nav div {
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+ #footerm .mnav {
+  display: block;
+  height: 46px;
+  border-left: 1px solid #f2f2f2;
+  color: #000;
+}
+ #footerm .mnav:hover,  #footerm .mnav:focus {
+  background: #BC8533;
+  color: #fff;
+  text-decoration: none;
+}
+ #footerm .mnav .glyphicon {
+  top: 8px;
+  font-size: 1.2em;
+}
+ #footerm .mnav strong {
+  font-size: 0.75em;
+  font-weight: 400;
+  display: block;
+  padding-top: 2px;
+}
+
